@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(16, 22, 31);
+}
+
+a,
+a:visited {
+  color: rgba(38, 80, 175);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  /* text-align: center; */
+  margin: 0;
+}
+
+button {
+  background: transparent;
+  padding: 1rem;
+  border: none;
+  outline: none;
+
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
+}
+
+#controls {
+  position: absolute;
+  width: 100vw;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#checkboxes > div:first-of-type {
+  margin-top: 1rem;
+}
+
+#canvas-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
